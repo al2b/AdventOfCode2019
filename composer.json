@@ -1,0 +1,19 @@
+{
+  "name": "AdventOfCode2019",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "AdventOfCode\\app\\": "app"
+    }
+  },
+
+  "require": {
+    "php": ">=7.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.4"
+  },
+  "scripts": {
+    "tests": "vendor/bin/phpunit"
+  }
+}
